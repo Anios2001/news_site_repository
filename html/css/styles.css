@@ -1,0 +1,108 @@
+/* Include Fonts and other neccessary files */
+@font-face {
+    font-family: Inter;
+    src: url("/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+/* Navigation Styling */
+
+#header-nav{
+    background-color: #FFFFFF;
+   
+}
+#logo_image_container {
+    background: url("/images/indian_daily.PNG") no-repeat;
+    height: 40px;
+    width: 250px;
+}
+.black-border-btn{
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 10px;
+}
+.black-border-btn:hover {
+    border: 2px solid black;
+    background-color: black;  
+    color: white;
+    border-radius: 6px;
+}
+.nav-link{
+    font-size: 19px;
+    color: black;
+    padding: 20px;
+    margin-left: 16px;
+}
+.nav-link:hover{
+   color: white;
+   background-color: black;
+}
+/* Content Styling Here  */
+body{
+    background-color: white;
+    font-size: 10px;
+    color: black;
+    font-family: Inter;
+}
+section{
+    padding: 10px;
+}
+article{
+    margin:20px;
+}
+.image-box{
+    border: 2px solid black;
+    height: 300px;
+    float: left;
+}
+.hot-news-container{
+    border: 1px solid black;
+    height: 200px;
+    background-color: white;
+    /* Positional Don't change untill design design revision */
+    float: right;
+    margin-top: -80px;
+    margin-right: 42px;
+    /* End------------------- */
+    
+}
+.sub-important{
+    height: 140px;
+    background-color: white;
+
+}
+.sub-important-img{
+    border: 0.5px solid black;
+    height: 150px;
+}
+.sub-important-text{
+    border: 0.5px dotted blue;
+    
+}
+.content-img{
+  height: 60px;
+  border: 0.4px solid black;
+}
+.content-text{
+  height: 60px;
+  border: 0.4px dotted blue;
+}
+.news-container{ 
+    padding: 5px 0px 5px 0px;
+    margin-bottom: 12.5px;
+    margin-top:12.5px;
+}
+.news-article-r{
+    margin-left: 4px;
+}
+.news-article-detailed{
+    /* border: 2px dashed black; */
+    height: 140px;
+    margin-top: 10px;
+    margin-left:30px;
+
+}
+.news-detailed-img{
+   border: 2px solid black;
+}
+.news-detailed-content{
+
+}
